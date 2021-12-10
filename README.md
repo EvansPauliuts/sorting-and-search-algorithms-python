@@ -1,1 +1,1 @@
-# sorting-and-search-algorithms-python
+# Sorting and searching algorithms. Merge sort, quick sort, selection sort, insertion sort, bubble sort.
