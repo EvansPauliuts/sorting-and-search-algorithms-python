@@ -2,10 +2,6 @@ from typing import List
 
 
 def heapify(arr: List[int], n: int, i: int) -> None:
-    """
-    Heap sort algorithm.
-    """
-
     largest: int = i
     l: int | float = 2 * i + 1
     r: int | float = 2 * i + 2
@@ -22,6 +18,10 @@ def heapify(arr: List[int], n: int, i: int) -> None:
 
 
 def heap_sort(arr: List[int]) -> None:
+    """
+    Heap sort algorithm.
+    """
+
     n: int = len(arr)
 
     for i in range(n//2 - 1, -1, -1):
